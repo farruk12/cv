@@ -78,14 +78,12 @@ hr{
 }
 .image1{
    width: 25%;
-   float: left;
-   margin-right: 30px;
-   text-align: right;
+   margin-left: 140px;
+
 }
 .image2{
    width: 65%;
-   float: right;
-   margin-left: 30PX;
+   margin-left: 20px;
 }
 .btn {
    background: #24e821;
