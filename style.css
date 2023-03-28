@@ -46,11 +46,29 @@ hr{
    width: 10%;
    margin:70px auto;
 }
+a{
+   color:#11999E;
+   font-family: 'montserrat', sans-serif;
+   margin: 10px 20px;
+   text-decoration: none;
+}
+a:active{
+   color: #f50303;
+}
+a:hover{
+   color: #24e821;
+}
 .middle-container{
    margin: 100px 0;
 }
 .bottom-container{
-   
+   background-color: #66BFBF;
+   padding: 50px 0 20px;
+}
+.low{
+   color: #ffffff;
+   font-style: italic;
+   padding: 15px 0;
 }
 .skill-row{
    width: 50%;
