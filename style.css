@@ -1,6 +1,7 @@
 body{
    line-height: 3;
    margin: 0;
+   font-family: 'Courier New', Courier, monospace;
  }
  .img-1{
     width:40%;
@@ -138,6 +139,7 @@ body{
      margin-left: 15px;
      font-size: 75%;
      color: white;
+     line-height: 3px;
    }
    .l{
      color: whitesmoke;
@@ -147,6 +149,7 @@ body{
      position: relative;
      left:180px;
      bottom: 140px;
+     font-size: small;
    }
    .low{
      color:white;
@@ -154,6 +157,7 @@ body{
      position: relative;
      bottom: 250px;
      left:180px;
+     font-size: small;
    }
    .high{
      display: inline-block;
@@ -166,4 +170,7 @@ body{
    .inst{
     position: relative;
     bottom: 30px;
+   }
+   .last{
+    font-size: small;
    }
