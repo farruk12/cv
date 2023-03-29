@@ -1,12 +1,12 @@
 body{
    line-height: 3;
+   margin: 0;
  }
  .img-1{
     width:40%;
     background-color: black;
     height: 50px;
-    padding: 0px;
-    margin-top: 20;
+    padding-left: 0px;
  }
  .img-2{
      width: 100%;
@@ -133,21 +133,10 @@ body{
    .rom{
      color: white;
    }
-   .twit{
-     position: relative;
-     bottom:50px;
-   }
-   .inst{
-     position: relative;
-
-   }
-   .face{
-     position: relative;
-     bottom:25px;
-   }
+   
    .legal{
      margin-left: 15px;
-     font-size: 55%;
+     font-size: 75%;
      color: white;
    }
    .l{
@@ -173,4 +162,8 @@ body{
      padding: 3px;
      bottom:250px;
      left: 180px;
+   }
+   .inst{
+    position: relative;
+    bottom: 30px;
    }
