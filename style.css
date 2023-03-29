@@ -136,14 +136,12 @@ body{
    .twit{
      position: relative;
      bottom:50px;
-     width: 2%;
    }
    .inst{
      position: relative;
 
    }
    .face{
-     width: 10%;
      position: relative;
      bottom:25px;
    }
