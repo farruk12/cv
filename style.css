@@ -172,7 +172,8 @@ body{
      
    }
    .twit{
-    
+    position: absolute;
+    display: flex;
    }
    .last{
     font-size: small;
