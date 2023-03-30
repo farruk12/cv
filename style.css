@@ -150,7 +150,7 @@ body{
      position: relative;
      left:180px;
      bottom: 140px;
-     font-size: small;
+     font-size: 10px;
    }
    .low{
      color:white;
@@ -167,6 +167,7 @@ body{
      padding: 3px;
      bottom:250px;
      left: 180px;
+     font-size: small;
    }
    .inst{
      
