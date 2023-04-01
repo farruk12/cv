@@ -26,6 +26,7 @@ body{
   text-align: center;
   display: inline-block;
   justify-content: center;
+  padding-bottom: 70px;
 }
 h1{
   color:#39ff14;
@@ -141,14 +142,14 @@ a:focus{
   font-size: 10px;
   position: relative;
   left:60px;
-  bottom:95px;
+  bottom:125px;
 }
 .bip{
   color:darkgray;
   font-size: 10px;
   position: relative;
   left:90px;
-  bottom:94px;
+  bottom:100px;
 }
 .usa{
   color:darkgray;
