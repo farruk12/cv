@@ -112,13 +112,18 @@ a:focus{
   bottom: 45px;
   right: 10px;
 }
-/* .gram{
+.gram{
   width: 25%;
   position: static;
-} */
-/* .face{
+} 
+ .face{
   width: 26%;
-} */
+} 
+.ssup{
+  width:20%;
+  position: relative;
+  bottom: 30px;
+}
 .dim{
   font-size: 10px;
   color: darkgray;
