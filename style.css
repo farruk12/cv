@@ -16,6 +16,7 @@ body{
   width: 20%;
   display: inline; 
   padding: 7px;
+  
 }
 
 .div-2{
@@ -167,4 +168,10 @@ a:focus{
 }
 a:focus{
   color: #39FF14;
+}
+.one{
+  color: white;
+}
+a:focus{
+  color: red;
 }
