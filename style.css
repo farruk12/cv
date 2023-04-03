@@ -88,8 +88,15 @@ h1{
   color: rgb(255, 255, 255);
   padding-left: 10px;
 }
-a{
+a:link{
   text-decoration: none;
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:active{
+  color: #39FF14;
 }
 .gray-2{
   color:gray;
@@ -99,9 +106,6 @@ a{
 .lop{
   color: white;
   padding-left: 10px;
-}
-a:active{
-  color: #39FF14;
 }
 .gray-3{
   color:gray;
