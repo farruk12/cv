@@ -1,5 +1,4 @@
 *{
-  box-sizing: border-box;
   margin: 0;
 }
  .div-1{
@@ -17,7 +16,7 @@
 .img-12{
   width: 7%;
   position: relative;
-  left:240px;
+  left:180px;
   bottom: 18px;
 
 }
@@ -29,7 +28,7 @@
 }
 .div-3{
   background-color: white;
-  width: 50%;
+  width: 35%;
   height: 350px;
   border: 1px solid gray;
   display: inline-block;
