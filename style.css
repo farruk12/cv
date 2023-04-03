@@ -15,10 +15,10 @@
   padding: 15px;
 }
 .img-12{
-  width: 10%;
+  width: 7%;
   position: relative;
   left:240px;
-  bottom: 10px;
+  bottom: 18px;
 
 }
 .div-2{
@@ -29,11 +29,11 @@
 }
 .div-3{
   background-color: white;
-  width: 40%;
+  width: 30%;
   height: 350px;
   border: 1px solid gray;
   display: inline-block;
-  margin: 300px 100px 100px 100px;
+  margin: 300px 100px 100px 50px;
 }
 h1{
   font-size: 70px;
@@ -62,7 +62,7 @@ span{
 }
 a{
   text-decoration: none;
-  color: skyblue;
+  color: rgb(74, 188, 233);
 }
 a:active{
   color: black;
