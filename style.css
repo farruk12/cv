@@ -100,7 +100,7 @@ a{
   color: white;
   padding-left: 10px;
 }
-a:focus{
+a:active{
   color: #39FF14;
 }
 .gray-3{
@@ -166,12 +166,6 @@ a:focus{
   left: 240px;
   bottom: 150px;
 }
-a:focus{
-  color: #39FF14;
-}
 .one{
   color: white;
-}
-a:focus{
-  color: red;
 }
