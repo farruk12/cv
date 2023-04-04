@@ -36,7 +36,7 @@ body{
 .btn-1{
   background-color: rgb(67, 67, 67);
   color: white;
-  width: 60px;
+  width: 70px;
   height: 25px;
   padding: 3px;
   border: none;
@@ -47,6 +47,11 @@ body{
   display: inline;
   columns: ;
   column-rule: 1px solid rgb(240, 7, 7);
+  font-size: medium;
+}
+.btn-1:active{
+  background-color: white;
+  color: black;
 }
 .btn-2{
   width:30px;
@@ -54,6 +59,11 @@ body{
   border-radius: 5px;
   margin-left: 30px;
   margin-top: 10px;
+  font-size: medium;
+}
+.btn-2:active{
+  background-color: white;
+  color: black;
 }
 .btn-3{
   background-color: rgb(67,67,67);
@@ -64,6 +74,11 @@ body{
   margin-top: 10px;
   margin-left: 10px;
   color: white;
+  font-size: medium;
+}
+.btn:active{
+  background-color: white;
+  color: black;
 }
 .btn-4{
   background-color: rgb(67, 67, 67);
@@ -74,6 +89,11 @@ body{
   margin-top: 10px;
   margin-left: 10px;
   border: none;
+  font-size: medium;
+}
+.btn-4:active{
+  background-color: white;
+  color: black;
 }
 .btn-5{
   background-color: rgb(67, 67, 67);
@@ -83,6 +103,11 @@ body{
   border: none;
   border-radius: 5px;
   margin-left: 10px;
+  font-size: medium;
+}
+.btn-5:active{
+  background-color: white;
+  color: black;
 }
 .btn-6{
   background-color: rgb(67, 67, 67);
@@ -92,4 +117,9 @@ body{
   border: none;
   margin-left: 10px;
   border-radius: 5px;
+  font-size: medium;
+}
+.btn-6:active{
+  background-color: white;
+  color: black;
 }
