@@ -20,14 +20,14 @@ body{
   height: 30px;
   width: 20px;
   position: relative;
-  left: 580px;
+  left: 220px;
   bottom: 6px;
 }
 .img-3{
   height: 30px;
   width: 27px;
   position: relative;
-  left: 600px;
+  left: 230px;
   bottom: 6px;
 }
 .div-2{
@@ -47,7 +47,6 @@ body{
   display: inline;
   columns: ;
   column-rule: 1px solid rgb(240, 7, 7);
-  display: flex;
 }
 .btn-2{
   width:30px;
@@ -55,7 +54,6 @@ body{
   border-radius: 5px;
   margin-left: 30px;
   margin-top: 10px;
-  display: flex;
 }
 .btn-3{
   background-color: rgb(67,67,67);
@@ -66,7 +64,6 @@ body{
   margin-top: 10px;
   margin-left: 10px;
   color: white;
-  display: flex;
 }
 .btn-4{
   background-color: rgb(67, 67, 67);
@@ -77,7 +74,6 @@ body{
   margin-top: 10px;
   margin-left: 10px;
   border: none;
-  display: flex;
 }
 .btn-5{
   background-color: rgb(67, 67, 67);
@@ -87,7 +83,6 @@ body{
   border: none;
   border-radius: 5px;
   margin-left: 10px;
-  display: flex;
 }
 .btn-6{
   background-color: rgb(67, 67, 67);
@@ -97,35 +92,4 @@ body{
   border: none;
   margin-left: 10px;
   border-radius: 5px;
-  display: flex;
-}
-.btn-7{
-  background-color: rgb(67, 67, 67);
-  color: white;
-  height: 27px;
-  margin-top: 10px;
-  border: none;
-  margin-left: 10px;
-  border-radius: 5px;
-  display: flex;
-}
-.btn-8{
-  background-color: rgb(67, 67, 67);
-  color: white;
-  height: 27px;
-  margin-top: 10px;
-  border: none;
-  margin-left: 10px;
-  border-radius: 5px;
-  display: flex;
-}
-.btn-9{
-  background-color: rgb(67, 67, 67);
-  color: white;
-  height: 27px;
-  margin-top: 10px;
-  border: none;
-  margin-left: 10px;
-  border-radius: 5px;
-  display: flex;
 }
