@@ -1,20 +1,17 @@
-*{
-  margin: 0;
-  box-sizing: border-box;
-}
+
 body{
-  background-color: rgb(38, 37, 37);
+
 }
 .div-1{
   background-color: black;
   width: 100%;
   height: 54px;
   border-bottom: solid 2px gray;
-  
+   
 }
 .img-1{
-  height: 50px;
-  width: 120px;
+  height: 10px;
+  width: 30px;
 }
 .img-2{
   height: 30px;
