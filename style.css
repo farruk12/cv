@@ -12,7 +12,11 @@ body{
   column-gap: 16px;
   row-gap: 41px;
 }
-
+@media (max-width:750px) {
+  .big-g{
+    grid-template-columns: 1fr ;
+  }
+}
 
 .img-1{
   width: 100%;
@@ -105,8 +109,12 @@ body{
   position: relative;
 }
 .search-button .tooltip,
-.voice-search-button .tooltip {
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip,
+.apps-youtube .tooltip,
+.notification-icon-lord .tooltip {
    position: absolute;
+   font-family: roboto, arial;
    background-color: gray;
    color: white;
    padding: 4px 8px 4px 8px;
@@ -119,11 +127,17 @@ body{
    white-space: nowrap;
 }
 .search-button:hover .tooltip,
-.voice-search-button:hover .tooltip {
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.apps-youtube:hover .tooltip,
+.notification-icon-lord:hover .tooltip{
   opacity: 1;
 }
 .search-button,
-.voice-search-button {
+.voice-search-button,
+.upload-icon-container,
+.apps-youtube,
+.notification-icon-lord {
   display: flex;
   position: relative;
   justify-content: center;
@@ -136,6 +150,7 @@ body{
  border: none;
  background-color: rgb(245,245,245);
 }
+
 .voice-1{
   height: 24px;
 }
