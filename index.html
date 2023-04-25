@@ -4,173 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creating youtube clone</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+      .container-fluid {
+        font-family: arial;
+      }
+    </style>
 </head>
 <body>
-    <div class="header">
-        <div class="left-section">
-            <a href="https://www.youtube.com"><img class="menu" src="https://supersimple.dev/public/img/exercises/youtube/icons/hamburger-menu.svg"></a>
-            <a href="https://www.youtube.com"><img class="youtube" src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-logo.svg"></a>
-        </div>
-        <div class="middle-section">
-<!--             <input class="input-1" type="text" placeholder="Search">
- -->            <button class="search-button">
-                <a href="https://www.youtube.com"><img class="zoom" src="https://supersimple.dev/public/img/exercises/youtube/icons/search.svg"></a>
-                <div class="tooltip">Search</div>
-            </button>
-            <button class="voice-search-button">
-                <a href="https://www.youtube.com"><img class="voice-1" src="https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg"></a>
-                <div class="tooltip">Search with your voice</div>
-            </button>
-        </div>
-        <div class="right-section">
-            <div class="upload-icon-container">
-                <img class="upload-icon" src="icons/upload.svg">
-                <div class="tooltip">Create</div>
-            </div>
-            <div class="apps-youtube">
-            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
-            <div class="tooltip">Youtube Apps</div>
-            </div>
-            <div class="notification-icon-lord">
-               <img class="notifications-1" src="icons/notifications.svg">
-               <div class="tooltip">Notifications</div>
-               <div class="nots-counts">3</div>
-            </div>
-            <img class="omar" src="pics/VJZU3336.JPG">
-        </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-gift-fill" viewBox="0 0 16 16">
+        <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7h6zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9H2.5z"/>
+      </svg> Sayari Events</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="postcode" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">check</button>
+        </form>
+      </div>
     </div>
-
-    <div class="sidebar">
-        <div class="sidebar-link">
-            <a href="https://www.youtube.com"><img src="https://supersimple.dev/public/img/exercises/youtube/icons/home.svg"></a>
-            <div>Home</div>
-        </div>
-        <div class="sidebar-link">
-            <a href="https://www.youtube.com"><img src="https://supersimple.dev/public/img/exercises/youtube/icons/explore.svg"></a>
-            <div>Explore</div>
-        </div>
-        <div class="sidebar-link">
-            <a href="https://www.youtube.com"><img src="https://supersimple.dev/public/img/exercises/youtube/icons/subscriptions.svg"></a>
-            <div>Subscriptions</div>
-        </div>
-        <div class="sidebar-link">
-            <a href="https://www.youtube.com"><img src="https://supersimple.dev/public/img/exercises/youtube/icons/originals.svg"></a>
-            <div>Originals</div>
-        </div>
-        <div class="sidebar-link">
-            <a href="https://www.youtube.com"><img src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-music.svg"></a>
-            <div>Music</div>
-        </div>
-        <div class="sidebar-link">
-            <a href="https://www.youtube.com" ><img src="https://supersimple.dev/public/img/exercises/youtube/icons/library.svg"></a>
-            <div>Library</div>
-        </div>
-
+  </nav>
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="sayari/EJYN8304.JPG" alt="" width="502" height="187">
+    <h1 class="display-5 fw-bold text-body-emphasis">we create you celebrate</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">our business is making memories.Memories are special moments that tell our story.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Get a quote</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">contact us</button>
+      </div>
     </div>
-
-   <div class="big-g">
-    <div class="div-1">
-        <div class="thumbnail-row">
-        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"><img class="img-1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp"></a>
-        <div class="video-time">14:20</div>
-       </div>
-       <div class="video-info-grid">
-        <div class="div-10">
-            <img class="img-10"  src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg">
-        </div>
-        <div class="div-11">
-            <p class="p-1">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-            <p class="p-2">Farruk omar</p>
-            <p class="p-3">3.4M views &#183; 6 months ago</p>
-        </div>
-        </div>
-        </div>
-        <div class="div-1">
-            <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk"><img class="img-1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp"></a>
-            <div class="next">5:20</div>
-           </div>
-           <div class="video-info-grid">
-            <div class="div-10">
-                <img class="img-10"  src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg">
-            </div>
-            <div class="div-11">
-                <p class="p-1">Try not to laugh challenge #9</p>
-                <p class="p-2">farruk omar</p>
-                <p class="p-3">19M views &#183; 4 years ago</p>
-            </div>
-            </div>
-            </div>
-            <div class="div-1">
-                <div class="thumbnail-row">
-                <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w"><img class="img-1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-3.webp"></a>
-                <div class="you">12:00</div>
-               </div>
-               <div class="video-info-grid">
-                <div class="div-10">
-                    <img class="img-10"  src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-3.jpeg">
-                </div>
-                <div class="div-11">
-                    <p class="p-1">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-                    <p class="p-2">Hanifa abdi</p>
-                    <p class="p-3">3.4M views &#183; 6 months ago</p>
-                </div>
-                </div>
-                </div>
-                <div class="div-1">
-                    <div class="thumbnail-row">
-                    <a href="https://www.youtube.com/watch?v=094y1Z2wpJg"><img class="img-1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-4.webp"></a>
-                    <div class="boss">4:30</div>
-                   </div>
-                   <div class="video-info-grid">
-                    <div class="div-10">
-                        <img class="img-10"  src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-4.jpeg">
-                    </div>
-                    <div class="div-11">
-                        <p class="p-1">Try not to laugh challenge #9</p>
-                        <p class="p-2">Markiplier</p>
-                        <p class="p-3">19M views &#183; 4 years ago</p>
-                    </div>
-                    </div>
-                    </div>
-                    <div class="div-1">
-                        <div class="thumbnail-row">
-                        <a href="https://www.youtube.com/watch?v=86CQq3pKSUw"><img class="img-1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-5.webp"></a>
-                        <div class="boom">3:00</div>
-                       </div>
-                       <div class="video-info-grid">
-                        <div class="div-10">
-                            <img class="img-10"  src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-5.jpeg">
-                        </div>
-                        <div class="div-11">
-                            <p class="p-1">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-                            <p class="p-2">Marques Brownlee</p>
-                            <p class="p-3">3.4M views &#183; 6 months ago</p>
-                        </div>
-                        </div>
-                        </div>
-                        <div class="div-1">
-                            <div class="thumbnail-row">
-                            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"><img class="img-1" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-6.webp"></a>
-                            <div class="car">20:00</div>
-                           </div>
-                           <div class="video-info-grid">
-                            <div class="div-10">
-                                <img class="img-10"  src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-6.jpeg">
-                            </div>
-                            <div class="div-11">
-                                <p class="p-1">Try not to laugh challenge #9</p>
-                                <p class="p-2">farruk omar</p>
-                                <p class="p-3">19M views &#183; 4 years ago</p>
-                            </div>
-                            </div>
-                            </div>
-   </div>
+  </div>
    
+
+
+  <h2 class="pb-2 border-bottom">Why choose sayari?</h2>
+
+
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+<!--       <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+ -->        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-balloon-heart-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8.49 10.92C19.412 3.382 11.28-2.387 8 .986 4.719-2.387-3.413 3.382 7.51 10.92l-.234.468a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.235-.468ZM6.726 1.269c-1.167-.61-2.8-.142-3.454 1.135-.237.463-.36 1.08-.202 1.85.055.27.467.197.527-.071.285-1.256 1.177-2.462 2.989-2.528.234-.008.348-.278.14-.386Z"/>
+        </svg>          
+      </div>
+      <h3  class="fs-2">Professional</h3>
+      <p  >The most successful event is the one that achieves your goals and exceeds your expectations.Our team of professional movers are trained to prioritize efficiency, organization, and attention to detail. We understand that your possessions are more than just objects - they are a reflection of your life, memories, and experiences. That's why we take extra care to ensure that everything is packed and transported with the utmost care and attention.
+        </p>
+      <a  href="#" class="icon-link">
+        <P >Get a quote</P>
+        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+      </a>
+    </div>
+    <div class="feature col">
+<!--       <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+ -->        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-gift-fill" viewBox="0 0 16 16">
+          <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7h6zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9H2.5z"/>
+        </svg>
+      </div>
+      <br>
+      <h3 class="fs-2">country wide</h3>
+      <p>we offer a range of services to suit your individual needs, whether you're moving locally or across the country.our team can handle everything from packing and loading to unpacking and unloadung,you can trust that you are getting a far and competitive rate fot our services.</p>
+      <a href="#" class="icon-link">
+        Get a quote
+        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+      </a>
+      <br>
+    </div>
+    <br>
+    <div class="feature col">
+<!--       <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+ -->        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-box2-heart-fill" viewBox="0 0 16 16">
+          <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5ZM8.5 4h6l.5.667V5H1v-.333L1.5 4h6V1h1v3ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+        </svg>
+        <br>
+      </div>
+      <br>
+      <h3 class="fs-2">Personal Touch</h3>
+      <p>At our core, we believe that moving should be an exciting and positive experience, not a stressful one. By providing exceptional moving services in the US, we hope to revolutionize the way people think about moving and provide a better, more personalized experience for our customers. Contact us today to learn more about how we can help you with your next move.</p>
+      <a href="#" class="icon-link">
+        Get a quote
+        <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+      </a>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
