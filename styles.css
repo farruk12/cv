@@ -81,3 +81,8 @@ grid-column-gap: 1px;
  p-4 {
   margin: 55px auto 15px 15px;
  }
+ h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 25px;
+  margin-top: 50px;
+ }
