@@ -16,6 +16,7 @@ body{
   line-height: 15px;
   margin-left: 9px;
   margin-top: 17px;
+  white-space: nowrap;
 }
 ul {
   display: flex;
@@ -26,7 +27,7 @@ ul {
   margin-top: 17px;
 }
 .l-1 {
-  margin-left: 130px;
+  margin-left: 80px;
 }
 .l-2 {
   margin-right: 20px;
