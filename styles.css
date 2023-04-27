@@ -2,11 +2,11 @@ body{
   margin: 0;
 }
 .section-1 {
-  background-color:#EDE9E3;
+  background-color:#DACEE1;
   height: 300px;
 }
 .container {
-  background-color:#EDE9E3;
+  background-color:#DACEE1;
   margin-left: 6px;
   display: flex;
   flex-direction: row;
