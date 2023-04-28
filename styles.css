@@ -55,7 +55,8 @@ width: 120px;
 font-family: arial;
 font-size: 9px;
 grid-column-gap: 1px;
-line-height: 17px;
+line-height: 14px;
+font-weight: bold;
 }
 .div-2 {
   display: flex;
