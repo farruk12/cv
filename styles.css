@@ -72,7 +72,7 @@ font-weight: bold;
 }
  .section-2 {
   background-color:#EDE9E3 ;
-  height: 180px;
+  height: 130px;
  }
  .div-2 {
   display: flex;
@@ -81,6 +81,7 @@ font-weight: bold;
  .img-3 {
   width: 20px;
   height: 20px;
+  object-fit: cover;
  }
  p-4 {
   margin: 55px auto 15px 15px;
