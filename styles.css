@@ -150,3 +150,10 @@ font-weight: bold;
     width: 50px;
     margin-left: 10px;
   }
+  .img-30 {
+    width: 33px;
+    height: 33px;
+    position: relative;
+    left: 100px;
+    bottom: 39px;
+  }
