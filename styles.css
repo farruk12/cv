@@ -105,6 +105,7 @@ font-weight: bold;
   margin-left: 35px;
   margin-top: 50px;
   margin-right: 32px;
+  border-radius: 5px;
  }
  .fig-2 {
   display: flex;
@@ -115,6 +116,7 @@ font-weight: bold;
   width: 135px;
   margin-left: 20px;
   margin-top: 50px;
+  border-radius: 5px;
  }
  .section-5 {
   background-color: #EDE9E3 ;
