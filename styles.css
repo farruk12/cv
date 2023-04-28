@@ -91,7 +91,23 @@ font-weight: bold;
   margin-left: 25px;
   margin-top: 50px;
  }
+ .div-10 {
+  display: flex;
+  flex-direction: row;
+ }
+ 
  .fig-1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #E5D9CF;
+  height: 230px;
+  width: 170px;
+  margin-left: 20px;
+  margin-top: 50px;
+ }
+ .fig-2 {
+  display: flex;
+  flex-direction: row;
   background-color: #E5D9CF;
   height: 230px;
   width: 170px;
