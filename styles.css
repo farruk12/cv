@@ -100,8 +100,8 @@ font-weight: bold;
   display: flex;
   flex-direction: row;
   background-color: #E5D9CF;
-  height: 230px;
-  width: 135px;
+  height: 248px;
+  width: 145px;
   margin-left: 35px;
   margin-top: 50px;
   margin-right: 32px;
@@ -157,8 +157,8 @@ font-weight: bold;
     .img-21 {
       width: 63px;
       position: relative;
-      left: 80px;
-      bottom:29px;
+      left: 89px;
+      bottom:27px;
     }
     .p-39 {
       font-family: sans-serif;
@@ -168,5 +168,13 @@ font-weight: bold;
       bottom: 50px;
       margin-left: 10px ;
       line-height: 10px;
+    }
+    .p-47 {
+      font-family: arial;
+      position: relative;
+      bottom: 50px;
+      font-size: 11px;
+      font-weight: bold;
+      margin-left: 10px;
     }
   
