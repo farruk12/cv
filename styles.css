@@ -2,6 +2,7 @@
 
 body{
   margin: 0;
+  height: 10000px;
 }
 .section-1 {
   background-color:#DACEE1;
@@ -132,15 +133,13 @@ font-weight: bold;
 }
  .section-4 {
   background-color: #DACEE1;
-  height: 250px;
+  height: 150px;
   margin-top: 35px;
   margin-bottom: 0;
+  display: flex;
  }
   
-.section-7 {
-  background-color:#EDE9E3 ;
-  height: 100px;
-}
+.
   .p-4{
     margin-top: 30px;
   }
@@ -185,5 +184,22 @@ font-weight: bold;
       font-size: 11px;
       font-weight: bold;
       margin-left: 10px;
+    }
+    .img-99 {
+      width: 100px;
+      height: 100px;
+      margin: 35px 15px;
+    }
+    .div-99 {
+      display: flex;
+      flex-direction: row;
+    }
+    .p-99 {
+      width: 270px;
+      font-size: 9px;
+      margin: auto;
+      margin-left: 4px;
+      font-family: serif;
+      line-height: 10px;
     }
     
