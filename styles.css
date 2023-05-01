@@ -71,4 +71,7 @@
     .navbars {
         font-size: 9px;
     }
+    .left-section {
+        margin-right: 20px;
+    }
 }
