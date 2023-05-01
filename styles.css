@@ -48,19 +48,15 @@
     flex-direction: row;
     flex:1;
     background-color: aqua;
-    overflow:hidden;
-    justify-content: end;
-    white-space: nowrap;
-    z-index: 1;
 }
 .svg-1 {
      width:20px;
-     margin-top:20px;
-     margin-left: 200px;
+     margin-top:15px;
+     margin-left: 80px;
 }
 .svg-2 {
     width: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 15px;
 }
 
@@ -74,4 +70,8 @@
     .left-section {
         margin-right: 26px;
     }
+    .right-section {
+        width: 50px;
+    }
+    
 }
