@@ -1,214 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
 
-body{
-  margin: 0;
-  height: 10000px;
+* {
+    margin: 0;
+    padding: 0;
 }
+
 .section-1 {
-  background-color:#DACEE1;
-  height: 240px;
-  margin-bottom: 7px;
+    background-color: #Dacee1;
+    height: 270px;
+    border-top: 0.05px solid black;
 }
-.container {
-  background-color:#DACEE1;
-  margin-left: 6px;
-  display: flex;
-  flex-direction: row;
+.div-1 {
+    display: flex;
+    flex-direction: row;
+}
+.left-section {
+    display: flex;
+    flex-direction: row;
+    flex:  1;
+    background-color: blue;
 }
 .span-1 {
-  font-family: 'Instrument Serif', serif;
-  font-size: 10px;
-  line-height:25px;
-  margin-left: 9px;
-  margin-top: 17px;
-  white-space: nowrap;
+    font-family: 'Ysabeau', sans-serif;
+    font-size:small;
+    margin-top:20px;
+    margin-left:10px;
+    white-space: nowrap;
 }
-ul {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  font-size: 12px;
-  line-height: 15px;
-  margin-top: 17px;
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: blueviolet;
 }
-.l-1 {
-  margin-left: 30px;
+.navbars {
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
 }
 .l-2 {
-  margin-right: 20px;
-  margin-left: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.right-section {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    background-color: aqua;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 1;
 }
 .svg-1 {
-  margin-left: 45px;
-  margin-top:16px ;
+     width:20px;
+     margin-top:20px;
+     margin-left: 200px;
 }
 .svg-2 {
-  margin-left: 21px;
-  margin-top: 16px;
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
 }
-h1 {
-  width: 200px;
-  line-height: 26px;
-  margin-left: 30px;
-  margin-top: 30px;
-  font-weight: normal;
-}
-.p-1 {
-margin-left: 4px;
-width: 140px;
-font-family: arial;
-font-size: 11px;
-grid-column-gap: 1px;
-line-height: 14px;
-font-weight: bold;
-
-}
-.speed-1 {
-  border-left: 1px solid rgb(148, 145, 145);
-  height: 45px;
-  margin-left: 30px;
-}
-.div-2 {
-  display: flex;
-  flex-direction: row;
-}
-.img-1 {
- width: 110px;
- height: 150px;
- margin-top: 0px;
- position: relative;
- bottom: 80px;
- margin-left: 70px;
-}
- .section-2 {
-  background-color:#EDE9E3 ;
-  height: 140px;
- }
- .div-2 {
-  display: flex;
-  flex-direction: row;
- }
- .img-3 {
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
- }
- p-4 {
-  margin: 55px auto 15px 15px;
- }
- h3 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: 25px;
-  margin-top: 50px;
- }
- hr {
-  width: 120px;
-  height: 1px;
-  position: relative;
-  bottom: 15px;
-  right: 210px;
-  background-color:black ;
- }
- 
- .div-10 {
-  display: flex;
-  flex-direction: row;
- }
- 
- .fig-1 {
-  display: flex;
-  flex-direction: row;
-  background-color: #E5D9CF;
-  height: 248px;
-  width: 145px;
-  margin-left: 35px;
-  margin-top: 50px;
-  margin-right: 20px;
-  border-radius: 5px;
- }
- .fig-2 {
-  display: flex;
-  flex-direction: row;
-  background-color: #E5D9CF;
-  height: 248px;
-  width: 145px;
-  margin-left: 14px;
-  margin-top: 50px;
-  border-radius: 5px;
- }
- .section-5 {
-  background-color: #EDE9E3 ;
-  height: 100px;
-}
- .section-4 {
-  background-color: #DACEE1;
-  height: 150px;
-  margin-top: 35px;
-  margin-bottom: 0;
-  display: flex;
- }
-  
-.
-  .p-4{
-    margin-top: 30px;
-  }
-  .img-12 {
-    width: 135px;
-    height:135px;
-    margin-left: 1px;
-  }
-  .div-20 {
-    display: block;
-    position: relative;
-  }
-  .h-5 {
-    font-family: arial;
-    font-weight: 100;
-    font-size: 10px;
-    width: 50px;
-    margin-left: 10px;
-    position: absolute;
-    top:110px;
-  }
-  
-    .img-21 {
-      width: 63px;
-      position: relative;
-      left: 89px;
-      bottom:27px;
-    }
-    .p-39 {
-      font-family: sans-serif;
-      font-size: 7px;
-      font-weight: lighter;
-      position: relative;
-      bottom: 50px;
-      margin-left: 10px ;
-      line-height: 10px;
-    }
-    .p-47 {
-      font-family: arial;
-      position: relative;
-      bottom: 50px;
-      font-size: 11px;
-      font-weight: bold;
-      margin-left: 10px;
-    }
-    .img-99 {
-      width: 100px;
-      height: 100px;
-      margin: 35px 15px;
-    }
-    .div-99 {
-      display: flex;
-      flex-direction: row;
-    }
-    .p-99 {
-      width: 270px;
-      font-size: 9px;
-      margin: auto;
-      margin-left: 4px;
-      font-family: serif;
-      line-height: 10px;
-    }
-    
