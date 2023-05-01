@@ -50,12 +50,12 @@
 .svg-1 {
      width:20px;
      margin-top:15px;
-     margin-left: 50px;
+     margin-left: 45px;
 }
 .svg-2 {
     width: 20px;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 4px;
 }
 
 @media only screen and (max-width:500px) {
