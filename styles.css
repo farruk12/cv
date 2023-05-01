@@ -60,13 +60,14 @@
 
 @media only screen and (max-width:500px) {
     .span-1 {
-        font-size: 9px;
+        font-size: 10px;
     }
     .navbars {
-        font-size: 9px;
+        font-size: 10px;
+        margin-left: 30px;
     }
     .left-section {
-        margin-right: 30px;
+        margin-right: 45px;
     }
     .right-section {
         width: 50px;
