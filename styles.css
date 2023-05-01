@@ -47,7 +47,7 @@
     flex-direction: row;
     flex:1;
     background-color: aqua;
-    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
     white-space: nowrap;
     z-index: 1;
 }
