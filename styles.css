@@ -50,7 +50,7 @@
 .svg-1 {
      width:20px;
      margin-top:15px;
-     margin-left: 75px;
+     margin-left: 60px;
 }
 .svg-2 {
     width: 20px;
@@ -60,17 +60,17 @@
 
 @media only screen and (max-width:500px) {
     .span-1 {
-        font-size: 10px;
+        font-size: 7px;
     }
     .navbars {
-        font-size: 10px;
+        font-size: 7px;
         margin-left: 30px;
     }
     .left-section {
         margin-right: 45px;
     }
     .right-section {
-        width: 50px;
+
     }
     
 }
