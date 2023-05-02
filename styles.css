@@ -61,7 +61,7 @@ body {
 .svg-2 {
     width: 11px;
     margin-top: 17px;
-    margin-left: 12px;
+    margin-left: 13px;
 }
 
 @media only screen and (max-width:500px) {
@@ -98,7 +98,7 @@ h1 {
     margin-left: 7px;
     margin-top: 15px;
     position: relative;
-    bottom: 150px;
+    bottom: 152px;
     display: inline-block;
 }
 .vertical {
@@ -129,4 +129,23 @@ h1 {
         left: 50px;
         bottom:100px ;
     }
+}
+.section-2 {
+    background-color: #EDE9E3;
+    height: 150px;
+    margin-top: 8px;
+}
+ .div-20 {
+    display: flex;
+    flex-direction: row;
+} 
+.img-2 {
+    width: 225px;
+}
+.p-7 {
+    font-size: 13px;
+    width: 215.515px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
