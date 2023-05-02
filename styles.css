@@ -8,7 +8,7 @@
     background-color: #Dacee1;
     height: 270px;
     border-top: 0.05px solid black;
-    height: 330px;
+    height: 290px;
     border-right:0.05px solid black ;
     border-left:0.05px solid black ;
 }
@@ -97,7 +97,7 @@ h1 {
     bottom: 30px;
 }
 .vertical {
-    border-left: 0.2px solid rgb(158, 157, 157);
+    border-left: 0.5px solid rgb(73, 73, 73);
     height: 50px;
     position: relative;
     top:30px;
