@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +8,9 @@
     background-color: #Dacee1;
     height: 270px;
     border-top: 0.05px solid black;
+    height: 330px;
+    border-right:0.05px solid black ;
+    border-left:0.05px solid black ;
 }
 .div-1 {
     display: flex;
@@ -82,13 +84,16 @@ h1 {
     margin-left: 28px;
     width: 200px;
     font-weight: 100;
+    font-family: 'Ysabeau', sans-serif;
 }
-.p-1  {
+.p-1 {
+    width: 200px;
+    line-height: 23px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-    font-weight: bold;
-    margin-top: 28px;
-    width: 225px;
-    line-height: 24px;
-    margin-left: 31px;
+    font-weight: 100;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+.span-2 {
+    border-left: 1px solid black;
 }
