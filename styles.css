@@ -180,6 +180,16 @@ hr {
     width: 160px;
     background-color: #E5D9CF;
     border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.pic-2 {
+    height: 300px;
+    width: 160px;
+    background-color: #E5D9CF;
+    border-radius: 4px;
+    display: block;
+    margin-right: 10px;
 }
 .test-1 {
     width: 155px;
