@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
 }
+body {
+    overflow-x: hidden;
+}
 
 .section-1 {
     background-color: #Dacee1;
-    height: 270px;
+    height: 300px;
     border-top: 0.05px solid black;
-    height: 290px;
     border-right:0.05px solid black ;
     border-left:0.05px solid black ;
 }
