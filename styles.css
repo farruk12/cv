@@ -183,10 +183,40 @@ hr {
 }
 .test-1 {
     width: 155px;
+    position: relative;
+    bottom: 20px;
 }
 .h-4 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 11px;
     width: 30px;
+    position: relative;
+    bottom: 45px;
+    margin-left: 15px;
+    display: inline-block;
+    line-height: 15px;
+}
+.span-99 {
+    position: relative;
+    left: 65px;
+    bottom:45px;
+    width: 17px;
+}
+.pp-1 {
+    font-size: 7px;
+    margin-left:15px ;
+    margin-right: 5px;
+    position: relative;
+    bottom: 36px;
+    line-height: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ksh-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 15px;  
+    position: relative;  
+    bottom: 27px;
 }
