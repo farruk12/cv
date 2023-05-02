@@ -5,6 +5,7 @@
 }
 body {
     overflow-x: hidden;
+    height: 10000px;
 }
 
 .section-1 {
@@ -158,4 +159,17 @@ h1 {
         font-size:9px;
         margin-right: 7px;
     }
+}
+.section-3 {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+hr {
+    position: relative;
+    left: 97px;
+    bottom: 7px;
 }
