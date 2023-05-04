@@ -299,8 +299,8 @@ hr {
     align-items:center;
     justify-content: center;
     color: black;
-    width: 22px;
-    margin: 4px auto;
+    /* width: 22px;
+    margin: 4px auto; */
 }
 .pp-3 {
     font-size: 7px;
