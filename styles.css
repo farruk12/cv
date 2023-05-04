@@ -178,8 +178,8 @@ hr {
 .grid {
     display: grid;
     grid-template-columns: 180px 180px ;
-    column-gap: 20px;
-    row-gap: 60px;
+    column-gap: 15px;
+    row-gap: 40px;
 }
 .pic-1 {
     height: 300px;
