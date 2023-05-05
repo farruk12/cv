@@ -490,12 +490,20 @@ hr {
     right: 90px;
     line-height: 12px;
 }
-.hr-line {
+
+.input {
+    height: 20px;
     border: none;
-    border-top: 1px solid black;
-    width: 255px;
-    position: relative;
-    top:75px;
-    margin-left: -210px;
-    overflow: hidden;
+    background-color:#EDE9E3 ;
+    border-bottom: 1px black solid;
+    margin-top: 50px;
+    margin-left: -100px;
+}
+::placeholder {
+    font-size: 10px;
+}
+.submit {
+  margin-top: 57px;
+  font-size: 10px;
+  margin-left: -39px;
 }
