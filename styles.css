@@ -457,7 +457,7 @@ hr {
     width: 100px;
     line-height: 14px;
     margin-left: 10px;
-    margin-top: 25px;
+    margin-top: 30px;
     font-weight: bold;
     margin-bottom: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -493,8 +493,9 @@ hr {
 .hr-line {
     border: none;
     border-top: 1px solid black;
-    width: 25%;
+    width: 255px;
     position: relative;
     top:75px;
-    left: -100px;
+    margin-left: -210px;
+    overflow: hidden;
 }
