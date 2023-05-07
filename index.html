@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University web design</title>
+    <title>University of california</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -13,38 +13,64 @@
 </head>
 <body>
     <section class="header">
-        <nav>
-            <a href="index.html"><img src="eduford_img/logo.png"> </a>
-            <div class="nav-links" id="navLinks>
-                 <i class="fa fa-times" onclick="hideMenu()"></i>
+         <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Course</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
-             <i class="fa fa-bars" onclick="showMenu()"></i>
-         </nav>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
         <div class="text-box">
-            <h1>World's Biggest University </h1>
-            <p>The world of programming.</p>
+            <h1>World's Biggest University</h1>
+            <p>Self believe and hard work will always earn you success.</p>
             <a href="" class="hero-btn">Visit us to know more</a>
         </div>
     </section>
+    
+
+    <section class="courses">
+        <h1>Courses we offer</h1>
+        <p>Discipline and hard-work</p>
+    </section>
 
 
-   <!-- javascript for menu -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- javascript -->
     <script>
-        var navLinks = document.getElementById("navLinks") 
-        
+
+        var navLinks = document.getElementById("navLinks");
+
         function showMenu() {
-            navLinks.style.right = "0"
+            navLinks.style.right = "0";
         }
         function hideMenu() {
-            navLinks.style.right = "-200"
+            navLinks.style.right = "-200px";
         }
+
+
     </script>
+
+
+
 </body>
 </html>
