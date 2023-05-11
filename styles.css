@@ -168,6 +168,11 @@ h3 {
 }
 
 @media (max-width:700px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    
     .row {
         flex-direction: column;
         gap:10px
